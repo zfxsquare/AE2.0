@@ -1,0 +1,15 @@
+{
+  "Author": "AE",
+  "Name": "AEAssistLoader",
+  "Punchline": "Hello world",
+  "Description": "A combat routine for end-game content",
+  "InternalName": "AEAssistLoader",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "combat",
+    "auto",
+    "plugin"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/NiGuangOwO/DalamudPlugins/main/plugins/AEAssist/AE2Logo.jpg",
+  "AssemblyVersion": "0.23.10.7"
+}
