@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "AEAssistLoader/0.23.10.13": {
+      "AEAssistLoader/0.23.10.14": {
         "runtime": {
           "AEAssistLoader.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "AEAssistLoader/0.23.10.13": {
+    "AEAssistLoader/0.23.10.14": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
