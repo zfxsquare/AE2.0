@@ -658,6 +658,22 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemOmen.CreateOmen(Common.Omen.Type.OmenType,System.Numerics.Vector3,System.Single,System.Numerics.Vector3)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <param name="pos"></param>
+            <param name="rot"></param>
+            <param name="scale">缩放比例</param>
+            <returns></returns>
+        </member>
+        <member name="T:Common.Omen.OmenManager">
+            <summary>
+            Omen管理类
+            
+            </summary>
+        </member>
         <member name="T:MiscUtil.IO.ReverseLineReader">
             <summary>
             Takes an encoding (defaulting to UTF-8) and a function which produces a seekable stream
