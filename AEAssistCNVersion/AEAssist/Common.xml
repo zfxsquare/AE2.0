@@ -668,6 +668,13 @@
             <param name="scale">缩放比例</param>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemOmen.RotationMattrix(System.Single*,System.Single)">
+            <summary>
+            
+            </summary>
+            <param name="mix4x4">in out </param>
+            <param name="rot"></param>
+        </member>
         <member name="T:Common.Omen.OmenManager">
             <summary>
             Omen管理类
