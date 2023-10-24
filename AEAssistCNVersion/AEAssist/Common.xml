@@ -681,6 +681,11 @@
             
             </summary>
         </member>
+        <member name="F:Common.Omen.Other.Rings">
+            <summary>
+            (omenid,(r1,r2))
+            </summary>
+        </member>
         <member name="T:MiscUtil.IO.ReverseLineReader">
             <summary>
             Takes an encoding (defaulting to UTF-8) and a function which produces a seekable stream
