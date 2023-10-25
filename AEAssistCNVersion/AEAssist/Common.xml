@@ -681,6 +681,11 @@
             
             </summary>
         </member>
+        <member name="M:Common.Omen.OmenManager.ForceClear">
+            <summary>
+            危险 
+            </summary>
+        </member>
         <member name="F:Common.Omen.Other.Rings">
             <summary>
             (omenid,(r1,r2))
