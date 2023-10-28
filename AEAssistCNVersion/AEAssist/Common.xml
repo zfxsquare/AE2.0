@@ -299,6 +299,12 @@
             从世界标准时间戳解析时间信息
             </summary>
         </member>
+        <member name="M:Common.Helper.TimeHelper.GetNetworkTime">
+            <summary>
+            从NTP服务器获取时间
+            </summary>
+            <returns>DateTime</returns>
+        </member>
         <member name="M:Common.IMemApiAddon.CheckAddon(System.String)">
             <summary>
             检测窗口是否存在
