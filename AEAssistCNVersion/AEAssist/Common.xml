@@ -601,6 +601,13 @@
             <param name="spellId"></param>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemApiSpell.IsBossAoe(System.UInt32)">
+            <summary>
+            是否是boss的aoe技能,判定方式为技能范围是否大于等于50m
+            </summary>
+            <param name="spellId"></param>
+            <returns></returns>
+        </member>
         <member name="T:Common.IMemApiSummoner">
             <summary>
             召唤量谱相关api
