@@ -706,6 +706,35 @@
             危险 
             </summary>
         </member>
+        <member name="T:Common.Omen.OmenRing">
+            <summary>
+            可以创建圆 扇形 圆环
+            </summary>
+        </member>
+        <member name="M:Common.Omen.OmenRing.CreatRingForWidth(System.String,System.Numerics.Vector3,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            通过外圈半径、圆环宽度和角度创建一个圆、扇形、圆环或者扇形圆环
+            </summary>
+            <param name="name"></param>
+            <param name="pos"></param>
+            <param name="rot"></param>
+            <param name="angle">圆环角度</param>
+            <param name="width">圆环宽度</param>
+            <param name="radius">外圈半径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.Omen.OmenRing.CreatRingForRadius(System.String,System.Numerics.Vector3,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            通过内圈半径、外圈半径和角度创建一个圆、扇形、圆环或者扇形圆环
+            </summary>
+            <param name="name">自定义名称</param>
+            <param name="pos">初始地点</param>
+            <param name="rot">面向</param>
+            <param name="angle">圆环角度</param>
+            <param name="radius1">内圈半径</param>
+            <param name="radius2">外圈半径</param>
+            <returns></returns>
+        </member>
         <member name="F:Common.Omen.Other.Rings">
             <summary>
             (omenid,(r1,r2))
