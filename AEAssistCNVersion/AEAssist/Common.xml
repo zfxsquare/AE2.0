@@ -358,18 +358,18 @@
             <param name="addonName"></param>
             <param name="values"></param>
         </member>
-        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.UInt32)">
+        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.UInt32,System.Boolean)">
             <summary>
             与游戏内单位交互
             </summary>
         </member>
-        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.String)">
+        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.String,System.Boolean)">
             <summary>
             与游戏内单位交互
             </summary>
             <param name="objectName">单位名字，如有重复找最近单位</param>
         </member>
-        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.String[])">
+        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.String[],System.Boolean)">
             <summary>
             与游戏内单位交互
             </summary>
