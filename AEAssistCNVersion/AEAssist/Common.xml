@@ -305,6 +305,12 @@
             </summary>
             <returns>DateTime</returns>
         </member>
+        <member name="M:Common.Helper.TimeHelper.GetWebDateTime">
+            <summary>
+            获取网页时间
+            </summary>
+            <returns>DateTime</returns>
+        </member>
         <member name="M:Common.Helper.TimeHelper.StringToDatetime(System.String)">
             <summary>
             将String格式时间"2023-1-14 5:14:19"转换成DateTime格式
@@ -695,6 +701,14 @@
             <param name="mix4x4">in out </param>
             <param name="rot"></param>
         </member>
+        <member name="M:Common.Omen.Omen.BindingRot(Common.Define.CharacterAgent,System.Single)">
+            <summary>
+            绑定面向为目标的面向
+            </summary>
+            <param name="character">目标</param>
+            <param name="offset">逆时针旋转角度</param>
+            <returns></returns>
+        </member>
         <member name="T:Common.Omen.OmenManager">
             <summary>
             Omen管理类
@@ -705,6 +719,17 @@
             <summary>
             危险 
             </summary>
+        </member>
+        <member name="M:Common.Omen.OmenManager.CreateRect(System.String,System.Single,System.Single,System.Single,System.Numerics.Vector3)">
+            <summary>
+            创建一个矩形 从pos向rot方向延伸
+            </summary>
+            <param name="name">自定义名字</param>
+            <param name="rot">方向</param>
+            <param name="width">宽度（左右方向）</param>
+            <param name="length">长度（前后）</param>
+            <param name="pos">起始地点</param>
+            <returns></returns>
         </member>
         <member name="T:Common.Omen.OmenRing">
             <summary>
