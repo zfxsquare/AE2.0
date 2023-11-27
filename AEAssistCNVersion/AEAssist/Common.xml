@@ -528,6 +528,16 @@
             </summary>
             <param name="pos"></param>
         </member>
+        <member name="M:Common.IMemApiNavigation.RayCast(System.UInt32,System.Numerics.Vector3@,System.Numerics.Vector3@,System.Numerics.Vector3@)">
+            <summary>
+            射线追踪
+            </summary>
+            <param name="territoryId">地图id</param>
+            <param name="origin">射线起始点</param>
+            <param name="direction">方向</param>
+            <param name="hit">命中点</param>
+            <returns></returns>
+        </member>
         <member name="T:Common.IMemApiSpell">
             <summary>
             技能相关的一些api
