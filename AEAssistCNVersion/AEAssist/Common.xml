@@ -694,6 +694,14 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemoryAPITeleport.Teleport(System.UInt32,System.Numerics.Vector3)">
+            <summary>
+            选择最靠近目标位置的传说点传送
+            </summary>
+            <param name="territoryId">区域</param>
+            <param name="pos">地点</param>
+            <returns></returns>
+        </member>
         <member name="T:MiscUtil.IO.ReverseLineReader">
             <summary>
             Takes an encoding (defaulting to UTF-8) and a function which produces a seekable stream
