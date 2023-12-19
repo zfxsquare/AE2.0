@@ -7,28 +7,8 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Blz/1.0.0": {
-        "dependencies": {
-          "HackBox": "1.0.0.0",
-          "ImGui.NET": "1.82.0.0"
-        },
         "runtime": {
           "Blz.dll": {}
-        }
-      },
-      "HackBox/1.0.0.0": {
-        "runtime": {
-          "HackBox.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "ImGui.NET/1.82.0.0": {
-        "runtime": {
-          "ImGui.NET.dll": {
-            "assemblyVersion": "1.82.0.0",
-            "fileVersion": "1.82.0.0"
-          }
         }
       }
     }
@@ -36,16 +16,6 @@
   "libraries": {
     "Blz/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "HackBox/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ImGui.NET/1.82.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
