@@ -147,6 +147,16 @@
             动态目标 实时计算的目标 需要设置回调
             </summary>
         </member>
+        <member name="M:Common.IModule.OnUpdate">
+            <summary>
+            游戏里每帧触发
+            </summary>
+        </member>
+        <member name="M:Common.IModule.OnDrawUI">
+            <summary>
+            每次UI刷新触发
+            </summary>
+        </member>
         <member name="P:Common.IEntry.Name">
             <summary>
             显示的插件名

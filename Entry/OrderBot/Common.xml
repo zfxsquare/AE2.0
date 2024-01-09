@@ -1,0 +1,868 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common</name>
+    </assembly>
+    <members>
+        <member name="P:Common.Define.CharacterAgent.InLos">
+            在视线内
+        </member>
+        <member name="F:Common.Define.HotKey.KeyValue.None">
+            <summary>
+            没有按键状态
+            </summary>
+        </member>
+        <member name="F:Common.Define.HotKey.KeyValue.Down">
+            <summary>
+            按键摁下
+            </summary>
+        </member>
+        <member name="F:Common.Define.HotKey.KeyValue.Pressed">
+            <summary>
+            按键按下并抬起
+            </summary>
+        </member>
+        <member name="F:Common.Define.HotKey.KeyValue.Released">
+            <summary>
+            按键抬起瞬间
+            </summary>
+        </member>
+        <member name="T:Common.Define.Map.ZoneLimit">
+            <summary>
+            单个区域限制类
+            </summary>
+        </member>
+        <member name="F:Common.Define.MoveControlCongfigKey.MoveForward">
+            <summary>
+            前进
+            </summary>
+        </member>
+        <member name="F:Common.Define.MoveControlCongfigKey.MoveBack">
+            <summary>
+            后退
+            </summary>
+        </member>
+        <member name="F:Common.Define.MoveControlCongfigKey.MoveLeft">
+            <summary>
+            左转
+            </summary>
+        </member>
+        <member name="F:Common.Define.MoveControlCongfigKey.MoveRight">
+            <summary>
+            右转
+            </summary>
+        </member>
+        <member name="F:Common.Define.MoveControlCongfigKey.StrafeLeft">
+            <summary>
+            左平移
+            </summary>
+        </member>
+        <member name="F:Common.Define.MoveControlCongfigKey.StrafeRight">
+            <summary>
+            右平移
+            </summary>
+        </member>
+        <member name="F:Common.Define.MoveControlCongfigKey.JUMP">
+            <summary>
+            跳跃 向上
+            </summary>
+        </member>
+        <member name="T:Common.Define.SpellTargetType">
+            <summary>
+            技能目标代名词
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.DefaultByCode">
+            <summary>
+            默认
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Self">
+            <summary>
+            自己
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Target">
+            <summary>
+            当前目标
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.TargetTarget">
+            <summary>
+            当前目标的目标
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm1">
+            <summary>
+            小队列表1
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm2">
+            <summary>
+            小队列表2
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm3">
+            <summary>
+            小队列表3
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm4">
+            <summary>
+            小队列表4
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm5">
+            <summary>
+            小队列表5
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm6">
+            <summary>
+            小队列表6
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm7">
+            <summary>
+            小队列表7
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Pm8">
+            <summary>
+            小队列表8
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.SpecifyTarget">
+            <summary>
+            特殊目标 对应oid
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.Location">
+            <summary>
+            地点
+            </summary>
+        </member>
+        <member name="F:Common.Define.SpellTargetType.DynamicTarget">
+            <summary>
+            动态目标 实时计算的目标 需要设置回调
+            </summary>
+        </member>
+        <member name="M:Common.IModule.OnUpdate">
+            <summary>
+            游戏里每帧触发
+            </summary>
+        </member>
+        <member name="M:Common.IModule.OnDrawUI">
+            <summary>
+            每次UI刷新触发
+            </summary>
+        </member>
+        <member name="P:Common.IEntry.Name">
+            <summary>
+            显示的插件名
+            </summary>
+        </member>
+        <member name="M:Common.IEntry.Update">
+            <summary>
+            每帧更新
+            </summary>
+        </member>
+        <member name="M:Common.IEntry.DrawEntrySetting">
+            <summary>
+            在主界面选中Entry时显示的内容
+            </summary>
+        </member>
+        <member name="M:Common.IEntry.DrawUi">
+            <summary>
+            哪怕切换Entry也会显示的内容.
+            </summary>
+        </member>
+        <member name="M:Common.IEntry.HandleChat(System.Int32,System.String)">
+            <summary>
+            处理聊天
+            </summary>
+            <param name="type"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:Common.IEntry.ResetLanguage(Common.Language.Language)">
+            <summary>
+            多语言重置了
+            </summary>
+            <param name="language"></param>
+        </member>
+        <member name="M:Common.IEntry.OnEvent(Common.IEntryEvent)">
+            <summary>
+            跨Entry之间的调用  走这个事件
+            </summary>
+            <param name="entryEvent"></param>
+        </member>
+        <member name="M:Common.IEntry.AfterVerified">
+            <summary>
+            验证完毕之后的回调
+            </summary>
+        </member>
+        <member name="M:Common.GUI.ImGuiHelper.Separator(System.UInt32,System.UInt32)">
+            <summary>
+            一个带上下间距的分割线
+            </summary>
+            <param name="topHeight">上间距</param>
+            <param name="bottomHeight">下间距</param>
+        </member>
+        <member name="M:Common.GUI.ImGuiHelper.IsRightMouseClicked">
+            右键点击
+        </member>
+        <member name="M:Common.GUI.ImGuiHelper.LinkText(System.String,System.String,System.String,System.Nullable{System.Drawing.Color})">
+            <summary>
+            超链接文字
+            </summary>
+            <param name="label">显示文本</param>
+            <param name="link">链接</param>
+            <param name="tooltip">提示文本</param>
+            <param name="color">文本颜色,默认null为imgui文本颜色</param>
+        </member>
+        <member name="M:Common.Helper.ChatHelper.SendMessage(System.String)">
+            发送宏指令
+        </member>
+        <member name="T:Common.Helper.ChatHelper.Print">
+            <summary>
+            本地打印纯文本，别人看不到，也没有声音
+            </summary>
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.Say(System.String)">
+            说话频道 /s
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.Shout(System.String)">
+            喊话频道 /sh
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.Yell(System.String)">
+            呼喊频道 /y
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.PvPTeam(System.String)">
+            战队频道 /pt
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.Echo(System.String)">
+            默语频道 /e
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.Party(System.String)">
+            小队频道 /p
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.Alliance(System.String)">
+            团队频道 /a
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.FreeCompany(System.String)">
+            部队频道 /fc
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.CustomEmote(System.String)">
+            自定义表情
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.StandardEmote(System.String)">
+            标准表情
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.Urgent(System.String)">
+            红字警告(淡红色)
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.ErrorMessage(System.String)">
+            红字报错(正红色)
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.NPCDialogue(System.String)">
+            NPC说话频道
+        </member>
+        <member name="M:Common.Helper.ChatHelper.Print.ColorText(System.Object[])">
+            <summary>
+            打印自定义彩色文本，如：ColorText("哈哈哈",69,"你好",22,"!")
+            </summary>
+            <param name="args">每个参数一段文本，文本参数后面跟int的颜色值参数，不带颜色默认白色</param>
+        </member>
+        <member name="M:Common.Helper.LogHelper.Print(System.String)">
+            <summary>
+            日志和聊天框打印
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Common.Helper.LogHelper.Print(System.String,System.String)">
+            <summary>
+            日志和聊天框打印
+            </summary>
+            <param name="title"></param>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Common.Helper.LogHelper.PrintError(System.String)">
+            <summary>
+            日志和聊天框打印（错误类型）
+            </summary>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Common.Helper.LogHelper.PrintError(System.String,System.String)">
+            <summary>
+            日志和聊天框打印（错误类型）
+            </summary>
+            <param name="title"></param>
+            <param name="msg"></param>
+        </member>
+        <member name="M:Common.Helper.TimeHelper.UtcNow">
+            <summary>
+            世界标准时间戳
+            </summary>
+        </member>
+        <member name="M:Common.Helper.TimeHelper.GetDateTime(System.Int64)">
+            <summary>
+            从世界标准时间戳解析时间信息
+            </summary>
+        </member>
+        <member name="M:Common.Helper.TimeHelper.GetNetworkTime">
+            <summary>
+            从NTP服务器获取时间
+            </summary>
+            <returns>DateTime</returns>
+        </member>
+        <member name="M:Common.Helper.TimeHelper.GetWebDateTime">
+            <summary>
+            获取网页时间
+            </summary>
+            <returns>DateTime</returns>
+        </member>
+        <member name="M:Common.Helper.TimeHelper.StringToDatetime(System.String)">
+            <summary>
+            将String格式时间"2023-1-14 5:14:19"转换成DateTime格式
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiAddon.CheckAddon(System.String)">
+            <summary>
+            检测窗口是否存在
+            </summary>
+            <param name="addonName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiAddon.WaitAddonUntil(System.String,System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            一直等到指定窗口存在或消失，才继续往下执行，超时后返回false
+            （使用该函数前加上 await 关键字）
+            </summary>
+            <param name="addonName">窗口名称</param>
+            <param name="visible">是否可见</param>
+            <param name="timeout">超时限制 ms</param>
+            <param name="delay">固定延时，防止自动交互太快</param>
+        </member>
+        <member name="M:Common.IMemApiAddon.GetAddonValue(System.String,System.UInt32)">
+            <summary>
+            获取窗口上的信息
+            </summary>
+            <param name="addonName"></param>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiAddon.SetAddonValue(System.String,System.UInt32,System.Int32)">
+            <summary>
+            设置控件文本
+            </summary>
+            <param name="addonName"></param>
+            <param name="nodeIndex"></param>
+            <param name="values"></param>
+        </member>
+        <member name="M:Common.IMemApiAddon.SetAddonClicked(System.String,System.Object[])">
+            <summary>
+            点击窗口上的按钮
+            </summary>
+            <param name="addonName"></param>
+            <param name="values"></param>
+        </member>
+        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.UInt32,System.Boolean)">
+            <summary>
+            与游戏内单位交互
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.String,System.Boolean)">
+            <summary>
+            与游戏内单位交互
+            </summary>
+            <param name="objectName">单位名字，如有重复找最近单位</param>
+        </member>
+        <member name="M:Common.IMemApiAddon.InteractWithUnit(System.String[],System.Boolean)">
+            <summary>
+            与游戏内单位交互
+            </summary>
+            <param name="objectName">符合数组包含的单位名字，如有重复找最近单位</param>
+        </member>
+        <member name="M:Common.IMemApiBlueMage.GetActiveSpells(System.Collections.Generic.List{System.UInt32},System.Int32)">
+            <summary>
+            返回当前激活的技能
+            </summary>
+            <param name="spells"></param>
+            <param name="maxCount"></param>
+        </member>
+        <member name="M:Common.IMemApiBlueMage.SetActiveSpells(System.Collections.Generic.List{System.UInt32})">
+            <summary>
+            设置一组技能
+            </summary>
+            <param name="spells"></param>
+        </member>
+        <member name="M:Common.IMemApiBuff.GetAuraTimeleft(Common.Define.CharacterAgent,System.UInt32,System.Boolean)">
+            <summary>
+            获取buff剩余时间,毫秒
+            </summary>
+            <param name="characterAgent"></param>
+            <param name="id"></param>
+            <param name="fromMe">是否要求属于自己添加的</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiBuff.IsPotted">
+            <summary>
+            是否有强化药状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiData.Job">
+            <summary>
+            职业ID | 中文名 | 英文名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiData.HighEndTerritory">
+            <summary>
+            高难副本ID | 副本名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Common.MemoryApi.IMemApiFunctionPointer">
+            <summary>
+            一些游戏函数指针，有些会做一些处理
+            </summary>
+        </member>
+        <member name="M:Common.MemoryApi.IMemApiFunctionPointer.GetActionData(System.UInt32)">
+            <summary>
+            与lumina的action表内容无异，exd的调用
+            </summary>
+            <param name="actionId">技能id</param>
+            <returns>结构体指针</returns>
+        </member>
+        <member name="M:Common.MemoryApi.IMemApiFunctionPointer.CheckActionCanUse(System.UInt32)">
+            <summary>
+            进行处理过的函数，仿的游戏GetActionState函数返回572的具体实现。猜测查表计算是否满足技能的前置要求
+            </summary>
+            <param name="actionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.MemoryApi.IMemApiFunctionPointer.IsCanQueue(System.UInt32)">
+            <summary>
+            不是属性，大概是以当前的状态技能是否能写进技能队列。反正返回true就写内存了 就那么叫吧
+            </summary>
+            <param name="actionId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Common.KeyBoardEvent">
+            <summary>
+            按键按下或者抬起的委托
+            </summary>
+            <param name="keyValue">目前只支持按下或者抬起</param>
+            <param name="keys">虚拟键值</param>
+        </member>
+        <member name="M:Common.IMemApiHotKey.CheckState(Common.Define.HotKey.ModifierKey,Common.Define.HotKey.Keys)">
+            <summary>
+            检查按键是否摁下并抬起
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiHotKey.CheckStateDown(Common.Define.HotKey.ModifierKey,Common.Define.HotKey.Keys)">
+            <summary>
+            检查按键是否摁下
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiHotKey.GetAnyKeyInput">
+            <summary>
+            返回键盘输入的任何键
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiHotKey.CheckModifierClicked">
+            <summary>
+            检查ctrl、shift、alt是否被摁下
+            </summary>
+        </member>
+        <member name="T:Common.IMemApiLimitBreak">
+            <summary>
+            LB相关数值
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiLimitBreak.GetLimitBreakBarCount">
+            <summary>
+            当前LB充能槽的数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiLimitBreak.GetLimitBreakBarValue">
+            <summary>
+            每段LB充能槽充满所需数值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiLimitBreak.GetLimitBreakCurrentValue">
+            <summary>
+            当前LB充能数值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiMaker.GetMarkerByObject(System.UInt32)">
+            <summary>
+            获取单位身上的标记
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiMaker.GetCharacterByMarker(Common.Marker)">
+            <summary>
+            获取被标记的单位
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiMaker.WayMarker(Common.WayMark)">
+            <summary>
+            获取场地标点信息
+            </summary>
+            <param name="wayMarkIndex">标点类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiNavigation.Goto(System.Numerics.Vector3,System.Numerics.Vector3,System.Int32,System.Boolean)">
+            <summary>
+            导航移动至
+            </summary>
+            <param name="start">起始坐标</param>
+            <param name="end">目的地坐标</param>
+            <param name="territoryId">目标地图id，当前地图使用 -1</param>
+            <param name="useMount">是否使用坐骑</param>
+        </member>
+        <member name="M:Common.IMemApiNavigation.TeleportTo(System.Int32)">
+            <summary>
+            传送至指定地图
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiNavigation.MoveToPos(System.Numerics.Vector3)">
+            <summary>
+            角色移动到某个点
+            </summary>
+            <param name="pos"></param>
+        </member>
+        <member name="M:Common.IMemApiNavigation.RayCast(System.UInt32,System.Numerics.Vector3@,System.Numerics.Vector3@,System.Numerics.Vector3@)">
+            <summary>
+            射线追踪
+            </summary>
+            <param name="territoryId">地图id</param>
+            <param name="origin">射线起始点</param>
+            <param name="direction">方向</param>
+            <param name="hit">命中点</param>
+            <returns></returns>
+        </member>
+        <member name="T:Common.IMemApiSpell">
+            <summary>
+            技能相关的一些api
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetLastComboSpellId">
+            <summary>
+            获取连击技能的id
+            有些时候即使无连击状态还是会返回最后的连击技能
+            </summary>
+            <returns>技能ID</returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.IsReady(System.UInt32)">
+            <summary>
+            简单判断技能是否解锁和蓝量是否足够技能使用。
+            </summary>
+            <param name="id">技能id</param>
+            <returns>返回true如果技能准备好了，否则false</returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetActionRange(System.UInt32)">
+            <summary>
+            获取技能释放距离
+            </summary>
+            <param name="id">技能id</param>
+            <returns>距离</returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.HotBarSlotHasAction(System.UInt32)">
+            <summary>
+            扫描热键栏是否有某一个技能
+            </summary>
+            <param name="id">技能id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.NinjutsuIsWhat">
+            <summary>
+            可以理解为当前可用忍术
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.CheckActionChange(System.UInt32)">
+            <summary>
+            获取会变化的技能的当前id（包括但不限于因等级而变化的技能、无法放置在热键栏的技能）
+            参数应当使用这些技能最原始的技能id。
+            </summary>
+            <param name="spellId">技能id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetGCDDuration(System.Boolean)">
+            <summary>
+            总cd (ms)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetElapsedGCD">
+            <summary>
+            已经转了多久 (ms)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Common.IMemApiSpell.IsAnimationLock">
+            <summary>
+            动画锁
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetActionState(System.UInt32)">
+            <summary>
+            可能是获取技能状态 FFXIVClientStructs.FFXIV.Client.Game.ActionManager.GetActionState
+            </summary>
+            <param name="id">技能id</param>
+            <returns>返回的可能是位状态标记，但是还不确定。已知的返回值可能 572-技能是暗的（一些需要前置的技能） 580-读条中（高优先级） 582-冷却在转（次优先级）568-mp不够 574-职业不对 0-一般认为技能可用</returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetActionInRangeOrLoS(System.UInt32)">
+            <summary>
+            FFXIVClientStructs.FFXIV.Client.Game.ActionManager.GetActionInRangeOrLoS
+            原函数还有两个参数 简化成自己和当前目标
+            </summary>
+            <param name="actionId">技能id</param>
+            <returns>返回的可能是位状态标记，但是还不确定。已知的返回值可能 566-超过距离</returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.IsLevelEnough(System.UInt32)">
+            <summary>
+            角色等级是否大于技能学习等级
+            </summary>
+            <param name="spellId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.IsBossAoe(System.UInt32)">
+            <summary>
+            是否是boss的aoe技能,判定方式为技能范围是否大于等于20m
+            </summary>
+            <param name="spellId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Common.IMemApiSummoner">
+            <summary>
+            召唤量谱相关api
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.TranceTimer">
+            <summary>
+            AttunmentTimerRemaining属性剩余时间
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.HasAetherflowStacks">
+            <summary>
+            是否有以太超流层数
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.Aetherflow">
+            <summary>
+            Aetherflow以太超流层数
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiSummoner.IsPetReady(Common.ActivePetType)">
+            <summary>
+            是否可以变身
+            </summary>
+            <param name="activePetType"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Common.IMemApiSummoner.PetTimer">
+            <summary>
+            SummonTimerRemaining召唤兽剩余时间
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.ElementalAttunement">
+            <summary>
+            Attunement属性以太层数
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.ActivePetType">
+            <summary>
+            在场召唤兽类别
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.HasPet">
+            <summary>
+            是否有宝石兽
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.InBahamut">
+            <summary>
+            龙神附体状态
+            </summary>
+        </member>
+        <member name="P:Common.IMemApiSummoner.InPhoenix">
+            <summary>
+            不死鸟附体状态
+            </summary>
+        </member>
+        <member name="M:Common.IMemApiZoneInfo.InDeepDungeon">
+            <summary>
+            是否在正统优雷卡
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemoryAPITeleport.Teleport(System.UInt32,System.Numerics.Vector3)">
+            <summary>
+            选择最靠近目标位置的传说点传送
+            </summary>
+            <param name="territoryId">区域</param>
+            <param name="pos">地点</param>
+            <returns></returns>
+        </member>
+        <member name="T:MiscUtil.IO.ReverseLineReader">
+            <summary>
+            Takes an encoding (defaulting to UTF-8) and a function which produces a seekable stream
+            (or a filename for convenience) and yields lines from the end of the stream backwards.
+            Only single byte encodings, and UTF-8 and Unicode, are supported. The stream
+            returned by the function must be seekable.
+            </summary>
+        </member>
+        <member name="F:MiscUtil.IO.ReverseLineReader.DefaultBufferSize">
+            <summary>
+            Buffer size to use by default. Classes with internal access can specify
+            a different buffer size - this is useful for testing.
+            </summary>
+        </member>
+        <member name="F:MiscUtil.IO.ReverseLineReader.streamSource">
+            <summary>
+            Means of creating a Stream to read from.
+            </summary>
+        </member>
+        <member name="F:MiscUtil.IO.ReverseLineReader.encoding">
+            <summary>
+            Encoding to use when converting bytes to text
+            </summary>
+        </member>
+        <member name="F:MiscUtil.IO.ReverseLineReader.bufferSize">
+            <summary>
+            Size of buffer (in bytes) to read each time we read from the
+            stream. This must be at least as big as the maximum number of
+            bytes for a single character.
+            </summary>
+        </member>
+        <member name="F:MiscUtil.IO.ReverseLineReader.characterStartDetector">
+            <summary>
+            Function which, when given a position within a file and a byte, states whether
+            or not the byte represents the start of a character.
+            </summary>
+        </member>
+        <member name="M:MiscUtil.IO.ReverseLineReader.#ctor(System.Func{System.IO.Stream})">
+            <summary>
+            Creates a LineReader from a stream source. The delegate is only
+            called when the enumerator is fetched. UTF-8 is used to decode
+            the stream into text.
+            </summary>
+            <param name="streamSource">Data source</param>
+        </member>
+        <member name="M:MiscUtil.IO.ReverseLineReader.#ctor(System.String)">
+            <summary>
+            Creates a LineReader from a filename. The file is only opened
+            (or even checked for existence) when the enumerator is fetched.
+            UTF8 is used to decode the file into text.
+            </summary>
+            <param name="filename">File to read from</param>
+        </member>
+        <member name="M:MiscUtil.IO.ReverseLineReader.#ctor(System.String,System.Text.Encoding)">
+            <summary>
+            Creates a LineReader from a filename. The file is only opened
+            (or even checked for existence) when the enumerator is fetched.
+            </summary>
+            <param name="filename">File to read from</param>
+            <param name="encoding">Encoding to use to decode the file into text</param>
+        </member>
+        <member name="M:MiscUtil.IO.ReverseLineReader.#ctor(System.Func{System.IO.Stream},System.Text.Encoding)">
+            <summary>
+            Creates a LineReader from a stream source. The delegate is only
+            called when the enumerator is fetched.
+            </summary>
+            <param name="streamSource">Data source</param>
+            <param name="encoding">Encoding to use to decode the stream into text</param>
+        </member>
+        <member name="M:MiscUtil.IO.ReverseLineReader.GetEnumerator">
+            <summary>
+            Returns the enumerator reading strings backwards. If this method discovers that
+            the returned stream is either unreadable or unseekable, a NotSupportedException is thrown.
+            </summary>
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.LastLinkedItemId">
+            最后一个链接的项目id
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.LastLinkedItemFlags">
+            最后一个链接的项目标志
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.Say(System.String)">
+            说话频道 /s
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.Shout(System.String)">
+            喊话频道 /sh
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.Yell(System.String)">
+            呼喊频道 /y
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.PvPTeam(System.String)">
+            战队频道 /pt
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.Echo(System.String)">
+            默语频道 /e
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.Party(System.String)">
+            小队频道 /p
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.Alliance(System.String)">
+            团队频道 /a
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.FreeCompany(System.String)">
+            部队频道 /fc
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.CustomEmote(System.String)">
+            自定义表情
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.StandardEmote(System.String)">
+            标准表情
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.Urgent(System.String)">
+            红字警告(淡红色)
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.ErrorMessage(System.String)">
+            红字报错(正红色)
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.NPCDialogue(System.String)">
+            NPC说话频道
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.PrintPluginMessage(System.String)">
+            <summary>
+            打印插件通知
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.PrintPluginMessage(System.String,System.String)">
+            <summary>
+            打印插件通知
+            </summary>
+            <param name="title"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.PrintPluginErrorMessage(System.String)">
+            <summary>
+            打印插件通知(红色错误类型)
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.PrintPluginErrorMessage(System.String,System.String)">
+            <summary>
+            打印插件通知(红色错误类型)
+            </summary>
+            <param name="title"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:AEAssist.MemoryApi.IMemApiChatMessage.ColorText(System.Object[])">
+            <summary>
+            打印自定义彩色文本，如：ColorText("哈哈哈",69,"你好",22,"!")
+            </summary>
+            <param name="args">每个参数一段文本，文本参数后面跟int的颜色值参数，不带颜色默认白色</param>
+        </member>
+    </members>
+</doc>

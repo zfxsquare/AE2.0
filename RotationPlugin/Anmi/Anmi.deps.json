@@ -191,6 +191,43 @@
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
+      },
+      "CombatRoutine/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "runtime": {
+          "CombatRoutine.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Basic.Reference.Assemblies.Net70": "1.4.5",
+          "FastDeepCloner": "1.3.6",
+          "Microsoft.CodeAnalysis.CSharp": "4.6.0-1.final",
+          "NAudio": "2.2.1",
+          "Samboy063.Tomlet": "5.1.2"
+        },
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
+      "RecastNet/1.0.0.0": {
+        "runtime": {
+          "RecastNet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MemoryPack.Core/1.9.13.0": {
+        "runtime": {
+          "MemoryPack.Core.dll": {
+            "assemblyVersion": "1.9.13.0",
+            "fileVersion": "1.9.13.0"
+          }
+        }
       }
     }
   },
@@ -360,6 +397,26 @@
       "sha512": "sha512-ZFCILZuOvtKPauZ/j/swhvw68ZRi9ATCfvGbk1QfydmcXBkIWecWKn/250UH7rahZ5OoDBaiAudJtPvLwzw85A==",
       "path": "system.text.encoding.codepages/6.0.0",
       "hashPath": "system.text.encoding.codepages.6.0.0.nupkg.sha512"
+    },
+    "CombatRoutine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecastNet/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack.Core/1.9.13.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
