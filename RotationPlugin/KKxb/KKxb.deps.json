@@ -7,8 +7,165 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "KKxb/1.0.0": {
+        "dependencies": {
+          "Microsoft.QualityTools.Testing.Fakes": "17.5.0-beta.23060.1",
+          "CombatRoutine": "1.0.0.0",
+          "Common": "1.0.0.0",
+          "ECommons": "2.0.0.7"
+        },
         "runtime": {
           "KKxb.dll": {}
+        }
+      },
+      "Microsoft.QualityTools.Testing.Fakes/17.5.0-beta.23060.1": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Security.Permissions": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.QualityTools.Testing.Fakes.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "17.500.23.6001"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/Microsoft.QualityTools.Testing.Fakes.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          },
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Security.AccessControl/6.0.0": {},
+      "System.Security.Permissions/6.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0",
+          "System.Windows.Extensions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Windows.Extensions/6.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "CombatRoutine/1.0.0.0": {
+        "runtime": {
+          "CombatRoutine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Common/1.0.0.0": {
+        "runtime": {
+          "Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ECommons/2.0.0.7": {
+        "runtime": {
+          "ECommons.dll": {
+            "assemblyVersion": "2.0.0.7",
+            "fileVersion": "2.0.0.7"
+          }
         }
       }
     }
@@ -16,6 +173,70 @@
   "libraries": {
     "KKxb/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.QualityTools.Testing.Fakes/17.5.0-beta.23060.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z3wkf7mOjkebatkNg8j9zl/JQvOzxoKGutecHFMflkXtD2EeENxXrrbhcuGHGBupTEL6LuOeY+Jvm1Ey6ZVTLQ==",
+      "path": "microsoft.qualitytools.testing.fakes/17.5.0-beta.23060.1",
+      "hashPath": "microsoft.qualitytools.testing.fakes.17.5.0-beta.23060.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
+      "path": "system.security.accesscontrol/6.0.0",
+      "hashPath": "system.security.accesscontrol.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/uuc7AklkDoxmcJ7LGkyX1CcSviZuLCa4jg3PekfJ7SU0niF0IVTXwUiNVP9DSpzou2PpxJ+eNY2IfDM90ZCg==",
+      "path": "system.security.permissions/6.0.0",
+      "hashPath": "system.security.permissions.6.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
+      "path": "system.windows.extensions/6.0.0",
+      "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "CombatRoutine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommons/2.0.0.7": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
