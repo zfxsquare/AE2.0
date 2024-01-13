@@ -7,8 +7,116 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Ricky/1.0.0": {
+        "dependencies": {
+          "CombatRoutine": "1.0.0.0",
+          "Common": "1.0.0.0"
+        },
         "runtime": {
           "Ricky.dll": {}
+        }
+      },
+      "CombatRoutine/1.0.0.0": {
+        "runtime": {
+          "CombatRoutine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Common/1.0.0.0": {
+        "runtime": {
+          "Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "System.Windows.Forms/7.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17501"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis/4.6.0.0": {
+        "runtime": {
+          "Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.600.23.10710"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/4.6.0.0": {
+        "runtime": {
+          "Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.600.23.10710"
+          }
+        }
+      },
+      "RecastNet/1.0.0.0": {
+        "runtime": {
+          "RecastNet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tomlet/5.1.2.0": {
+        "runtime": {
+          "Tomlet.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "NAudio.Core/2.2.1.0": {
+        "runtime": {
+          "NAudio.Core.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.2.1.0": {
+        "runtime": {
+          "NAudio.Wasapi.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "FastDeepCloner/1.0.3.6": {
+        "runtime": {
+          "FastDeepCloner.dll": {
+            "assemblyVersion": "1.0.3.6",
+            "fileVersion": "1.0.3.6"
+          }
+        }
+      },
+      "Basic.Reference.Assemblies.Net70/1.0.0.0": {
+        "runtime": {
+          "Basic.Reference.Assemblies.Net70.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MemoryPack.Core/1.9.13.0": {
+        "runtime": {
+          "MemoryPack.Core.dll": {
+            "assemblyVersion": "1.9.13.0",
+            "fileVersion": "1.9.13.0"
+          }
         }
       }
     }
@@ -16,6 +124,71 @@
   "libraries": {
     "Ricky/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CombatRoutine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis/4.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.CSharp/4.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecastNet/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tomlet/5.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio.Core/2.2.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio.Wasapi/2.2.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastDeepCloner/1.0.3.6": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Basic.Reference.Assemblies.Net70/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack.Core/1.9.13.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
