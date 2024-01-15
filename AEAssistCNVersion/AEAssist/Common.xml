@@ -635,6 +635,24 @@
             <param name="spellId"></param>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemApiSpell.CanCastEx(System.UInt32,System.Nullable{System.Int64},System.Int64)">
+            <summary>
+            确认技能能否能用
+            不检测距离
+            </summary>
+            <param name="actionId">技能id</param>
+            <param name="targetId">目标id</param>
+            <param name="recastTimeLeft">技能cd剩多少秒视为可用</param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.CheckActionInRangeOrLoS(System.UInt32,System.Nullable{System.Int64})">
+            <summary>
+            检测距离
+            </summary>
+            <param name="actionId">技能id</param>
+            <param name="targetId">目标id</param>
+            <returns></returns>
+        </member>
         <member name="T:Common.IMemApiSummoner">
             <summary>
             召唤量谱相关api
