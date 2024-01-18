@@ -710,6 +710,11 @@
             不死鸟附体状态
             </summary>
         </member>
+        <member name="M:Common.IMemApiTarget.CanAttack(Common.Define.CharacterAgent,System.Int64)">
+            <summary>
+            ActionManager.CanUseActionOnTarget
+            </summary>
+        </member>
         <member name="M:Common.IMemApiZoneInfo.InDeepDungeon">
             <summary>
             是否在正统优雷卡
