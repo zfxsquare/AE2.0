@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CXY/1.0.0": {
+        "dependencies": {
+          "CombatRoutine": "1.0.0.0",
+          "Common": "1.0.0.0",
+          "ImGui.NET": "1.82.0.0"
+        },
+        "runtime": {
+          "CXY.dll": {}
+        }
+      },
+      "CombatRoutine/1.0.0.0": {
+        "runtime": {
+          "CombatRoutine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Common/1.0.0.0": {
+        "runtime": {
+          "Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ImGui.NET/1.82.0.0": {
+        "runtime": {
+          "ImGui.NET.dll": {
+            "assemblyVersion": "1.82.0.0",
+            "fileVersion": "1.82.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CXY/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CombatRoutine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImGui.NET/1.82.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
