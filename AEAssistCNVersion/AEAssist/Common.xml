@@ -392,6 +392,13 @@
             </summary>
             <param name="spells"></param>
         </member>
+        <member name="M:Common.IMemApiBlueMage.AssignBlueMageActionToSlot(System.Int32,System.UInt32)">
+            <summary>
+            设置单个技能
+            </summary>
+            <param name="slot">插槽位置</param>
+            <param name="actionId">技能id</param>
+        </member>
         <member name="M:Common.IMemApiBuff.GetAuraTimeleft(Common.Define.CharacterAgent,System.UInt32,System.Boolean)">
             <summary>
             获取buff剩余时间,毫秒
@@ -404,6 +411,12 @@
         <member name="M:Common.IMemApiBuff.IsPotted">
             <summary>
             是否有强化药状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiCondition.InDutyRecorderPlayback">
+            <summary>
+            任务回顾中
             </summary>
             <returns></returns>
         </member>
@@ -547,6 +560,27 @@
             技能相关的一些api
             </summary>
         </member>
+        <member name="M:Common.IMemApiSpell.GetRecastTime(System.UInt32)">
+            <summary>
+            复唱时间
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetRecastTimeElapsed(System.UInt32)">
+            <summary>
+            复唱经过时间
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.GetCooldown(System.UInt32)">
+            <summary>
+            冷却CD
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="M:Common.IMemApiSpell.GetLastComboSpellId">
             <summary>
             获取连击技能的id
@@ -554,12 +588,13 @@
             </summary>
             <returns>技能ID</returns>
         </member>
-        <member name="M:Common.IMemApiSpell.IsReady(System.UInt32)">
+        <member name="M:Common.IMemApiSpell.PreCheck(System.UInt32)">
             <summary>
-            简单判断技能是否解锁和蓝量是否足够技能使用。
+            框架底层专用，不要在ACR中使用此方法
+            实现：等级检查、蓝量检查
             </summary>
-            <param name="id">技能id</param>
-            <returns>返回true如果技能准备好了，否则false</returns>
+            <param name="actionid"></param>
+            <returns></returns>
         </member>
         <member name="M:Common.IMemApiSpell.GetActionRange(System.UInt32)">
             <summary>
