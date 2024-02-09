@@ -588,14 +588,6 @@
             </summary>
             <returns>技能ID</returns>
         </member>
-        <member name="M:Common.IMemApiSpell.PreCheck(System.UInt32)">
-            <summary>
-            框架底层专用，不要在ACR中使用此方法
-            实现：等级检查、蓝量检查
-            </summary>
-            <param name="actionid"></param>
-            <returns></returns>
-        </member>
         <member name="M:Common.IMemApiSpell.GetActionRange(System.UInt32)">
             <summary>
             获取技能释放距离
