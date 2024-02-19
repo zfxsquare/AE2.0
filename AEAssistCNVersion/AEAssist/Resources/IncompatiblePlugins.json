@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "RotationSolver",
+        "Icon": "https://raw.githubusercontent.com/ArchiDog1998/RotationSolver/main/Images/Logo.png",
+        "Description": "谁JB用RS啊"
+    },
+    {
+        "Name": "XIVCombo",
+        "Icon": "https://raw.githubusercontent.com/daemitus/XIVComboPlugin/master/res/icon.png",
+        "Description": "一键循环类插件影响ACR自动循环"
+    },
+    {
+        "Name": "XIVSlothCombo",
+        "Icon": "https://raw.githubusercontent.com/Nik-Potokar/XIVSlothCombo/main/res/plugin/xivslothcombo.png",
+        "Description": "一键循环类插件影响ACR自动循环"
+    },
+    {
+        "Name": "XIVSlothComboX",
+        "Icon": "https://raw.githubusercontent.com/Nik-Potokar/XIVSlothCombo/main/res/plugin/xivslothcombo.png",
+        "Description": "一键循环类插件影响ACR自动循环"
+    },
+    {
+        "Name": "BossMod",
+        "Icon": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/icon.png",
+        "Description": "如果你用的是逆光的仅保留画图版本，请无视。如果不是，启用该插件会影响ACR自动循环"
+    },
+    {
+        "Name": "Redirect",
+        "Icon": "https://raw.githubusercontent.com/cairthenn/Redirect/main/Redirect/icon.png",
+        "Description": "可能会影响ACR自动循环或时间轴处理目标"
+    },
+    {
+        "Name": "ReAction",
+        "Icon": "",
+        "Description": "可能会影响ACR自动循环或时间轴处理目标"
+    },
+    {
+        "Name": "SimpleTweaksPlugin",
+        "Icon": "https://raw.githubusercontent.com/Caraxi/SimpleTweaksPlugin/main/images/icon.png",
+        "Description": "如果你遇到验证完游戏立刻闪退，请检查《Blocks targeting treasure hunt enemies》功能是否关闭！"
+    }
+]
