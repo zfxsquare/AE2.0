@@ -756,6 +756,11 @@
             <param name="pos">地点</param>
             <returns></returns>
         </member>
+        <member name="F:Common.Share.Pull">
+            <summary>
+            主动攻击
+            </summary>
+        </member>
         <member name="T:MiscUtil.IO.ReverseLineReader">
             <summary>
             Takes an encoding (defaulting to UTF-8) and a function which produces a seekable stream
