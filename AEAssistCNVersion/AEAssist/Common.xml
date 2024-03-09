@@ -595,7 +595,7 @@
             <param name="id">技能id</param>
             <returns>距离</returns>
         </member>
-        <member name="M:Common.IMemApiSpell.HotBarSlotHasAction(System.UInt32)">
+        <member name="M:Common.IMemApiSpell.HotBarSlot_NinjutsuNowIsWhat">
             <summary>
             扫描热键栏是否有某一个技能
             </summary>
