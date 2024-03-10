@@ -725,7 +725,7 @@
             不死鸟附体状态
             </summary>
         </member>
-        <member name="M:Common.IMemApiTarget.CanAttack(Common.Define.CharacterAgent,System.Int64)">
+        <member name="M:Common.IMemApiTarget.CanAttack(Common.Define.CharacterAgent,System.UInt32)">
             <summary>
             ActionManager.CanUseActionOnTarget
             </summary>
