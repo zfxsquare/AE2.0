@@ -420,18 +420,6 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Common.IMemApiData.Job">
-            <summary>
-            职业ID | 中文名 | 英文名
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Common.IMemApiData.HighEndTerritory">
-            <summary>
-            高难副本ID | 副本名称
-            </summary>
-            <returns></returns>
-        </member>
         <member name="T:Common.MemoryApi.IMemApiFunctionPointer">
             <summary>
             一些游戏函数指针，有些会做一些处理

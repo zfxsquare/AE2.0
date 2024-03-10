@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Aki/1.0.0": {
+        "dependencies": {
+          "Dalamud": "9.0.0.22"
+        },
         "runtime": {
           "Aki.dll": {}
+        }
+      },
+      "Dalamud/9.0.0.22": {
+        "runtime": {
+          "Dalamud.dll": {
+            "assemblyVersion": "9.0.0.22",
+            "fileVersion": "9.0.0.22"
+          }
         }
       }
     }
@@ -16,6 +27,11 @@
   "libraries": {
     "Aki/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dalamud/9.0.0.22": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
