@@ -668,6 +668,11 @@
             <param name="targetId">目标id</param>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemApiSpellCastSucces.ClearRecentlyUsed">
+            <summary>
+            需要连续使用两次以上相同能力技时，先在AfterSpell的该技能下调用此方法
+            </summary>
+        </member>
         <member name="T:Common.IMemApiSummoner">
             <summary>
             召唤量谱相关api
