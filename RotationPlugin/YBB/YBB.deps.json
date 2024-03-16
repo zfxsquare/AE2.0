@@ -7,8 +7,471 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "YBB/1.0.0": {
+        "dependencies": {
+          "CombatRoutine": "1.0.0.0",
+          "Common": "1.0.0.0",
+          "Dalamud": "9.0.0.23",
+          "ImGui.NET": "1.82.0.0",
+          "ImGuiScene": "1.0.0.0"
+        },
         "runtime": {
           "YBB.dll": {}
+        }
+      },
+      "CombatRoutine/1.0.0.0": {
+        "runtime": {
+          "CombatRoutine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Common/1.0.0.0": {
+        "runtime": {
+          "Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Dalamud/9.0.0.23": {
+        "runtime": {
+          "Dalamud.dll": {
+            "assemblyVersion": "9.0.0.23",
+            "fileVersion": "9.0.0.23"
+          }
+        }
+      },
+      "ImGui.NET/1.82.0.0": {
+        "runtime": {
+          "ImGui.NET.dll": {
+            "assemblyVersion": "1.82.0.0",
+            "fileVersion": "1.82.0.0"
+          }
+        }
+      },
+      "ImGuiScene/1.0.0.0": {
+        "runtime": {
+          "ImGuiScene.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "Lumina.Excel/6.0.0.0": {
+        "runtime": {
+          "Lumina.Excel.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.5.2.0"
+          }
+        }
+      },
+      "ECommons/2.1.0.7": {
+        "runtime": {
+          "ECommons.dll": {
+            "assemblyVersion": "2.1.0.7",
+            "fileVersion": "2.1.0.7"
+          }
+        }
+      },
+      "Lumina/3.0.0.0": {
+        "runtime": {
+          "Lumina.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.16.0.0"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis/4.6.0.0": {
+        "runtime": {
+          "Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.600.23.10710"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/4.6.0.0": {
+        "runtime": {
+          "Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.600.23.10710"
+          }
+        }
+      },
+      "RecastNet/1.0.0.0": {
+        "runtime": {
+          "RecastNet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tomlet/5.1.2.0": {
+        "runtime": {
+          "Tomlet.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "NAudio.Core/2.2.1.0": {
+        "runtime": {
+          "NAudio.Core.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.2.1.0": {
+        "runtime": {
+          "NAudio.Wasapi.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "FastDeepCloner/1.0.3.6": {
+        "runtime": {
+          "FastDeepCloner.dll": {
+            "assemblyVersion": "1.0.3.6",
+            "fileVersion": "1.0.3.6"
+          }
+        }
+      },
+      "Basic.Reference.Assemblies.Net70/1.0.0.0": {
+        "runtime": {
+          "Basic.Reference.Assemblies.Net70.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Dalamud.Common/1.0.0.0": {
+        "runtime": {
+          "Dalamud.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PInvoke.Kernel32/0.7.0.0": {
+        "runtime": {
+          "PInvoke.Kernel32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.2.0.0": {
+        "runtime": {
+          "SharpDX.DXGI.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "Serilog/2.0.0.0": {
+        "runtime": {
+          "Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.11.0.0"
+          }
+        }
+      },
+      "TerraFX.Interop.Windows/10.0.22621.2": {
+        "runtime": {
+          "TerraFX.Interop.Windows.dll": {
+            "assemblyVersion": "10.0.22621.2",
+            "fileVersion": "10.0.22621.2"
+          }
+        }
+      },
+      "SharpDX.Mathematics/4.2.0.0": {
+        "runtime": {
+          "SharpDX.Mathematics.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "FFXIVClientStructs/1.0.0.3507": {
+        "runtime": {
+          "FFXIVClientStructs.dll": {
+            "assemblyVersion": "1.0.0.3507",
+            "fileVersion": "1.0.0.3507"
+          }
+        }
+      },
+      "SQLite-net/1.8.116.0": {
+        "runtime": {
+          "SQLite-net.dll": {
+            "assemblyVersion": "1.8.116.0",
+            "fileVersion": "1.8.116.0"
+          }
+        }
+      },
+      "MonoMod.RuntimeDetour/23.1.2.0": {
+        "runtime": {
+          "MonoMod.RuntimeDetour.dll": {
+            "assemblyVersion": "23.1.2.0",
+            "fileVersion": "23.1.2.0"
+          }
+        }
+      },
+      "HttpClient.Caching/1.3.7.0": {
+        "runtime": {
+          "HttpClient.Caching.dll": {
+            "assemblyVersion": "1.3.7.0",
+            "fileVersion": "1.3.7.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/8.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58008"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0.0": {
+        "runtime": {
+          "SharpDX.Direct3D11.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX/4.2.0.0": {
+        "runtime": {
+          "SharpDX.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "PInvoke.User32/0.7.0.0": {
+        "runtime": {
+          "PInvoke.User32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "Reloaded.Hooks.Definitions/1.14.0.0": {
+        "runtime": {
+          "Reloaded.Hooks.Definitions.dll": {
+            "assemblyVersion": "1.14.0.0",
+            "fileVersion": "1.14.0.0"
+          }
+        }
+      },
+      "Reloaded.Hooks/4.2.0.0": {
+        "runtime": {
+          "Reloaded.Hooks.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "Iced/1.17.0.0": {
+        "runtime": {
+          "Iced.dll": {
+            "assemblyVersion": "1.17.0.0",
+            "fileVersion": "1.17.0.0"
+          }
+        }
+      },
+      "MinSharp/1.0.0.0": {
+        "runtime": {
+          "MinSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MonoMod.Iced/1.17.0.0": {
+        "runtime": {
+          "MonoMod.Iced.dll": {
+            "assemblyVersion": "1.17.0.0",
+            "fileVersion": "1.17.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.0.0": {
+        "runtime": {
+          "Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Async/1.5.0.0": {
+        "runtime": {
+          "Serilog.Sinks.Async.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1.0": {
+        "runtime": {
+          "Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "CheapLoc/1.1.8.0": {
+        "runtime": {
+          "CheapLoc.dll": {
+            "assemblyVersion": "1.1.8.0",
+            "fileVersion": "1.1.8.0"
+          }
+        }
+      },
+      "System.Reactive/5.0.0.0": {
+        "runtime": {
+          "System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "SDL2-CS/1.0.0.0": {
+        "runtime": {
+          "SDL2-CS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PInvoke.Windows.Core/0.7.0.0": {
+        "runtime": {
+          "PInvoke.Windows.Core.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "MemoryPack.Core/1.9.13.0": {
+        "runtime": {
+          "MemoryPack.Core.dll": {
+            "assemblyVersion": "1.9.13.0",
+            "fileVersion": "1.9.13.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4.976": {
+        "runtime": {
+          "SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "SQLitePCLRaw.batteries_v2/2.0.4.976": {
+        "runtime": {
+          "SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "MonoMod.ILHelpers/23.1.2.0": {
+        "runtime": {
+          "MonoMod.ILHelpers.dll": {
+            "assemblyVersion": "23.1.2.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MonoMod.Utils/23.1.2.0": {
+        "runtime": {
+          "MonoMod.Utils.dll": {
+            "assemblyVersion": "23.1.2.0",
+            "fileVersion": "23.1.2.0"
+          }
+        }
+      },
+      "Mono.Cecil/0.11.4.0": {
+        "runtime": {
+          "Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          }
+        }
+      },
+      "MonoMod.Core/23.1.2.0": {
+        "runtime": {
+          "MonoMod.Core.dll": {
+            "assemblyVersion": "23.1.2.0",
+            "fileVersion": "23.1.2.0"
+          }
+        }
+      },
+      "MonoMod.Backports/23.1.2.0": {
+        "runtime": {
+          "MonoMod.Backports.dll": {
+            "assemblyVersion": "23.1.2.0",
+            "fileVersion": "23.1.2.0"
+          }
+        }
+      },
+      "Validation/2.4.0.0": {
+        "runtime": {
+          "Validation.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.15.30595"
+          }
+        }
+      },
+      "Reloaded.Memory/7.0.0.0": {
+        "runtime": {
+          "Reloaded.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Reloaded.Memory.Buffers/2.0.0.0": {
+        "runtime": {
+          "Reloaded.Memory.Buffers.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Reloaded.Assembler/1.0.14.0": {
+        "runtime": {
+          "Reloaded.Assembler.dll": {
+            "assemblyVersion": "1.0.14.0",
+            "fileVersion": "1.0.14.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.nativelibrary/2.0.4.976": {
+        "runtime": {
+          "SQLitePCLRaw.nativelibrary.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4.976": {
+        "runtime": {
+          "SQLitePCLRaw.provider.dynamic_cdecl.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
+          }
         }
       }
     }
@@ -16,6 +479,291 @@
   "libraries": {
     "YBB/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CombatRoutine/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dalamud/9.0.0.23": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImGui.NET/1.82.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImGuiScene/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lumina.Excel/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommons/2.1.0.7": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lumina/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis/4.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.CSharp/4.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecastNet/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tomlet/5.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio.Core/2.2.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio.Wasapi/2.2.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastDeepCloner/1.0.3.6": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Basic.Reference.Assemblies.Net70/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dalamud.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PInvoke.Kernel32/0.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.DXGI/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TerraFX.Interop.Windows/10.0.22621.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.Mathematics/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FFXIVClientStructs/1.0.0.3507": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLite-net/1.8.116.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoMod.RuntimeDetour/23.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HttpClient.Caching/1.3.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.ObjectPool/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.Direct3D11/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PInvoke.User32/0.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reloaded.Hooks.Definitions/1.14.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reloaded.Hooks/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Iced/1.17.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MinSharp/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoMod.Iced/1.17.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog.Sinks.File/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog.Sinks.Async/1.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog.Sinks.Console/4.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CheapLoc/1.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Reactive/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SDL2-CS/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PInvoke.Windows.Core/0.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack.Core/1.9.13.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLitePCLRaw.core/2.0.4.976": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLitePCLRaw.batteries_v2/2.0.4.976": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoMod.ILHelpers/23.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoMod.Utils/23.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mono.Cecil/0.11.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoMod.Core/23.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoMod.Backports/23.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Validation/2.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reloaded.Memory/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reloaded.Memory.Buffers/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reloaded.Assembler/1.0.14.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLitePCLRaw.nativelibrary/2.0.4.976": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4.976": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
