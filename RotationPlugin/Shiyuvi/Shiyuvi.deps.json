@@ -11,7 +11,8 @@
           "CombatRoutine": "1.0.0.0",
           "Common": "1.0.0.0",
           "Dalamud": "9.0.0.23",
-          "ECommons": "2.1.0.7"
+          "ECommons": "2.1.0.7",
+          "System.Windows.Forms": "7.0.0.0"
         },
         "runtime": {
           "Shiyuvi.dll": {}
@@ -46,6 +47,55 @@
           "ECommons.dll": {
             "assemblyVersion": "2.1.0.7",
             "fileVersion": "2.1.0.7"
+          }
+        }
+      },
+      "System.Windows.Forms/7.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17501"
+          }
+        },
+        "resources": {
+          "cs/System.Windows.Forms.resources.dll": {
+            "locale": "cs"
+          },
+          "de/System.Windows.Forms.resources.dll": {
+            "locale": "de"
+          },
+          "es/System.Windows.Forms.resources.dll": {
+            "locale": "es"
+          },
+          "fr/System.Windows.Forms.resources.dll": {
+            "locale": "fr"
+          },
+          "it/System.Windows.Forms.resources.dll": {
+            "locale": "it"
+          },
+          "ja/System.Windows.Forms.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/System.Windows.Forms.resources.dll": {
+            "locale": "ko"
+          },
+          "pl/System.Windows.Forms.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/System.Windows.Forms.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru/System.Windows.Forms.resources.dll": {
+            "locale": "ru"
+          },
+          "tr/System.Windows.Forms.resources.dll": {
+            "locale": "tr"
+          },
+          "zh-Hans/System.Windows.Forms.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/System.Windows.Forms.resources.dll": {
+            "locale": "zh-Hant"
           }
         }
       },
@@ -281,6 +331,95 @@
           }
         }
       },
+      "System.Drawing.Common/7.0.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17405"
+          }
+        }
+      },
+      "System.Windows.Forms.Primitives/7.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17501"
+          }
+        },
+        "resources": {
+          "cs/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "cs"
+          },
+          "de/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "de"
+          },
+          "es/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "es"
+          },
+          "fr/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "fr"
+          },
+          "it/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "it"
+          },
+          "ja/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "ko"
+          },
+          "pl/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "ru"
+          },
+          "tr/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "tr"
+          },
+          "zh-Hans/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Accessibility/4.0.0.0": {
+        "runtime": {
+          "Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.523.17501"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0.0": {
+        "runtime": {
+          "Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17405"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/7.0.0.0": {
+        "runtime": {
+          "System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17405"
+          }
+        }
+      },
+      "System.Windows.Extensions/7.0.0.0": {
+        "runtime": {
+          "System.Windows.Extensions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17405"
+          }
+        }
+      },
       "MemoryPack.Core/1.9.13.0": {
         "runtime": {
           "MemoryPack.Core.dll": {
@@ -369,6 +508,22 @@
           }
         }
       },
+      "System.Diagnostics.EventLog/7.0.0.0": {
+        "runtime": {
+          "System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17405"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/7.0.0.0": {
+        "runtime": {
+          "System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.523.17405"
+          }
+        }
+      },
       "SQLitePCLRaw.nativelibrary/2.0.4.976": {
         "runtime": {
           "SQLitePCLRaw.nativelibrary.dll": {
@@ -409,6 +564,11 @@
       "sha512": ""
     },
     "ECommons/2.1.0.7": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms/7.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -558,6 +718,36 @@
       "serviceable": false,
       "sha512": ""
     },
+    "System.Drawing.Common/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Primitives/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accessibility/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Extensions/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MemoryPack.Core/1.9.13.0": {
       "type": "reference",
       "serviceable": false,
@@ -609,6 +799,16 @@
       "sha512": ""
     },
     "Reloaded.Assembler/1.0.14.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.EventLog/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Cryptography.ProtectedData/7.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
