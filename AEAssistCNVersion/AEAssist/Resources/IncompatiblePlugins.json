@@ -38,5 +38,11 @@
         "Name": "SimpleTweaksPlugin",
         "Icon": "https://raw.githubusercontent.com/Caraxi/SimpleTweaksPlugin/main/images/icon.png",
         "Description": "如果你遇到验证完游戏立刻闪退，请检查《Blocks targeting treasure hunt enemies》功能是否关闭！"
+    },
+    {
+        "Name": "AutoHook",
+        "Icon": "https://raw.githubusercontent.com/InitialDet/AutoHook/main/AutoHook/images/icon.png",
+        "Description": "冲突较多，建议关闭"
     }
 ]
+
