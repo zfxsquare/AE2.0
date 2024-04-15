@@ -322,6 +322,18 @@
             <param name="dateTime"></param>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemApiAchiment.GetRequestedAchievementProgress(System.UInt32)">
+            <summary>
+            获取成就进度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiAchiment.RequestAchievementProgress(System.UInt32)">
+            <summary>
+            向服务器发起查询成就进度
+            </summary>
+            <param name="id"></param>
+        </member>
         <member name="M:Common.IMemApiAddon.CheckAddon(System.String)">
             <summary>
             检测窗口是否存在
