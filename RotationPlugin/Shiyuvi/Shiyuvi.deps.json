@@ -11,8 +11,10 @@
           "CombatRoutine": "1.0.0.0",
           "Common": "1.0.0.0",
           "Dalamud": "9.1.0.0",
-          "ECommons": "2.1.0.7",
+          "ECommons": "2.2.0.1",
           "FFXIVClientStructs": "1.0.0.3590",
+          "ImGui.NET": "1.82.0.0",
+          "ImGuiScene": "1.0.0.0",
           "Lumina": "3.0.0.0",
           "Lumina.Excel": "6.0.0.0",
           "System.Windows.Forms": "8.0.0.0"
@@ -45,11 +47,11 @@
           }
         }
       },
-      "ECommons/2.1.0.7": {
+      "ECommons/2.2.0.1": {
         "runtime": {
           "ECommons.dll": {
-            "assemblyVersion": "2.1.0.7",
-            "fileVersion": "2.1.0.7"
+            "assemblyVersion": "2.2.0.1",
+            "fileVersion": "2.2.0.1"
           }
         }
       },
@@ -58,6 +60,22 @@
           "FFXIVClientStructs.dll": {
             "assemblyVersion": "1.0.0.3590",
             "fileVersion": "1.0.0.3590"
+          }
+        }
+      },
+      "ImGui.NET/1.82.0.0": {
+        "runtime": {
+          "ImGui.NET.dll": {
+            "assemblyVersion": "1.82.0.0",
+            "fileVersion": "1.82.0.0"
+          }
+        }
+      },
+      "ImGuiScene/1.0.0.0": {
+        "runtime": {
+          "ImGuiScene.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -206,6 +224,22 @@
           }
         }
       },
+      "PInvoke.Kernel32/0.7.0.0": {
+        "runtime": {
+          "PInvoke.Kernel32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.2.0.0": {
+        "runtime": {
+          "SharpDX.DXGI.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
       "Serilog/2.0.0.0": {
         "runtime": {
           "Serilog.dll": {
@@ -219,6 +253,14 @@
           "TerraFX.Interop.Windows.dll": {
             "assemblyVersion": "10.0.22621.2",
             "fileVersion": "10.0.22621.2"
+          }
+        }
+      },
+      "SharpDX.Mathematics/4.2.0.0": {
+        "runtime": {
+          "SharpDX.Mathematics.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
           }
         }
       },
@@ -243,6 +285,30 @@
           "Microsoft.Extensions.ObjectPool.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.123.58008"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0.0": {
+        "runtime": {
+          "SharpDX.Direct3D11.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX/4.2.0.0": {
+        "runtime": {
+          "SharpDX.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "PInvoke.User32/0.7.0.0": {
+        "runtime": {
+          "PInvoke.User32.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
           }
         }
       },
@@ -315,6 +381,14 @@
           "System.Reactive.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "PInvoke.Windows.Core/0.7.0.0": {
+        "runtime": {
+          "PInvoke.Windows.Core.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "0.7.104.53878"
           }
         }
       },
@@ -431,6 +505,14 @@
           }
         }
       },
+      "Validation/2.4.0.0": {
+        "runtime": {
+          "Validation.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.15.30595"
+          }
+        }
+      },
       "Reloaded.Memory/7.0.0.0": {
         "runtime": {
           "Reloaded.Memory.dll": {
@@ -518,12 +600,22 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ECommons/2.1.0.7": {
+    "ECommons/2.2.0.1": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "FFXIVClientStructs/1.0.0.3590": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImGui.NET/1.82.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImGuiScene/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -593,12 +685,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "PInvoke.Kernel32/0.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.DXGI/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Serilog/2.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "TerraFX.Interop.Windows/10.0.22621.2": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.Mathematics/4.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -614,6 +721,21 @@
       "sha512": ""
     },
     "Microsoft.Extensions.ObjectPool/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.Direct3D11/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PInvoke.User32/0.7.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -663,6 +785,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "PInvoke.Windows.Core/0.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "System.Drawing.Common/8.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -704,6 +831,11 @@
       "sha512": ""
     },
     "SQLitePCLRaw.batteries_v2/2.0.4.976": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Validation/2.4.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
