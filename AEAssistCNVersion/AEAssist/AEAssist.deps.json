@@ -13,7 +13,7 @@
           "OrderBot": "1.0.0",
           "System.Management": "8.0.0",
           "TriggerlineEditor": "1.0.0",
-          "ECommons": "2.1.0.7",
+          "ECommons": "2.2.0.1",
           "Newtonsoft.Json": "13.0.0.0"
         },
         "runtime": {
@@ -256,11 +256,11 @@
           "TriggerlineEditor.dll": {}
         }
       },
-      "ECommons/2.1.0.7": {
+      "ECommons/2.2.0.1": {
         "runtime": {
           "ECommons.dll": {
-            "assemblyVersion": "2.1.0.7",
-            "fileVersion": "2.1.0.7"
+            "assemblyVersion": "2.2.0.1",
+            "fileVersion": "2.2.0.1"
           }
         }
       },
@@ -491,7 +491,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ECommons/2.1.0.7": {
+    "ECommons/2.2.0.1": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
