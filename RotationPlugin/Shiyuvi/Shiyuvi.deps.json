@@ -12,6 +12,9 @@
           "Common": "1.0.0.0",
           "Dalamud": "9.1.0.0",
           "ECommons": "2.1.0.7",
+          "FFXIVClientStructs": "1.0.0.3590",
+          "Lumina": "3.0.0.0",
+          "Lumina.Excel": "6.0.0.0",
           "System.Windows.Forms": "8.0.0.0"
         },
         "runtime": {
@@ -47,6 +50,30 @@
           "ECommons.dll": {
             "assemblyVersion": "2.1.0.7",
             "fileVersion": "2.1.0.7"
+          }
+        }
+      },
+      "FFXIVClientStructs/1.0.0.3590": {
+        "runtime": {
+          "FFXIVClientStructs.dll": {
+            "assemblyVersion": "1.0.0.3590",
+            "fileVersion": "1.0.0.3590"
+          }
+        }
+      },
+      "Lumina/3.0.0.0": {
+        "runtime": {
+          "Lumina.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.16.0.0"
+          }
+        }
+      },
+      "Lumina.Excel/6.0.0.0": {
+        "runtime": {
+          "Lumina.Excel.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.5.2.0"
           }
         }
       },
@@ -104,30 +131,6 @@
           "Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
             "fileVersion": "13.0.2.27524"
-          }
-        }
-      },
-      "Lumina.Excel/6.0.0.0": {
-        "runtime": {
-          "Lumina.Excel.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.5.2.0"
-          }
-        }
-      },
-      "FFXIVClientStructs/1.0.0.3590": {
-        "runtime": {
-          "FFXIVClientStructs.dll": {
-            "assemblyVersion": "1.0.0.3590",
-            "fileVersion": "1.0.0.3590"
-          }
-        }
-      },
-      "Lumina/3.0.0.0": {
-        "runtime": {
-          "Lumina.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.16.0.0"
           }
         }
       },
@@ -520,12 +523,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Windows.Forms/8.0.0.0": {
+    "FFXIVClientStructs/1.0.0.3590": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Newtonsoft.Json/13.0.0.0": {
+    "Lumina/3.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -535,12 +538,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FFXIVClientStructs/1.0.0.3590": {
+    "System.Windows.Forms/8.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Lumina/3.0.0.0": {
+    "Newtonsoft.Json/13.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

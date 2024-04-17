@@ -9,7 +9,8 @@
       "HackBox/1.0.0": {
         "dependencies": {
           "CombatRoutine": "1.0.0",
-          "Common": "1.0.0"
+          "Common": "1.0.0",
+          "ExposedObject": "2.2.0"
         },
         "runtime": {
           "HackBox.dll": {}
@@ -34,6 +35,17 @@
           "lib/netstandard2.0/Basic.Reference.Assemblies.Net70.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ExposedObject/2.2.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/ExposedObject.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
@@ -72,6 +84,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
@@ -214,6 +227,13 @@
       "path": "basic.reference.assemblies.net70/1.4.5",
       "hashPath": "basic.reference.assemblies.net70.1.4.5.nupkg.sha512"
     },
+    "ExposedObject/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YIRgcIAVJ5VKavBW1VidPNoU5a5VAfCdJLcHuaA3JGJIBjKqyOjdkPkc7zPPTKl4XKOQTsT7yR5dtP552nk+vg==",
+      "path": "exposedobject/2.2.0",
+      "hashPath": "exposedobject.2.2.0.nupkg.sha512"
+    },
     "FastDeepCloner/1.3.6": {
       "type": "package",
       "serviceable": true,
@@ -241,6 +261,13 @@
       "sha512": "sha512-kbt6Dhq+uXAnLJ20Fj1gNDHDyH14h5IhvADchkA9GngFfzHH38uOeNzEZl81kAsxceHntN3DLlp6/VNvkCBIrA==",
       "path": "microsoft.codeanalysis.csharp/4.6.0-1.final",
       "hashPath": "microsoft.codeanalysis.csharp.4.6.0-1.final.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
