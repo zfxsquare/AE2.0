@@ -10,11 +10,11 @@
         "dependencies": {
           "Autofac": "8.0.0",
           "CombatRoutine": "1.0.0",
+          "Common": "1.0.0",
           "OrderBot": "1.0.0",
           "System.Management": "8.0.0",
           "TriggerlineEditor": "1.0.0",
-          "ECommons": "2.2.0.1",
-          "Newtonsoft.Json": "13.0.0.0"
+          "ECommons": "2.2.0.1"
         },
         "runtime": {
           "AEAssist.dll": {}
@@ -264,14 +264,6 @@
           }
         }
       },
-      "Newtonsoft.Json/13.0.0.0": {
-        "runtime": {
-          "Newtonsoft.Json.dll": {
-            "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.2.27524"
-          }
-        }
-      },
       "RecastNet/1.0.0.0": {
         "runtime": {
           "RecastNet.dll": {
@@ -492,11 +484,6 @@
       "sha512": ""
     },
     "ECommons/2.2.0.1": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Newtonsoft.Json/13.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

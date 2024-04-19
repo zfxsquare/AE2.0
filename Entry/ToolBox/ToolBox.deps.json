@@ -9,7 +9,8 @@
       "ToolBox/1.0.0": {
         "dependencies": {
           "CombatRoutine": "1.0.0",
-          "Common": "1.0.0"
+          "Common": "1.0.0",
+          "System.Management": "9.0.0-preview.3.24172.9"
         },
         "runtime": {
           "ToolBox.dll": {}
@@ -168,12 +169,39 @@
           }
         }
       },
+      "System.CodeDom/9.0.0-preview.3.24172.9": {
+        "runtime": {
+          "lib/net8.0/System.CodeDom.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.17209"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
       "System.Diagnostics.DiagnosticSource/4.7.1": {},
+      "System.Management/9.0.0-preview.3.24172.9": {
+        "dependencies": {
+          "System.CodeDom": "9.0.0-preview.3.24172.9"
+        },
+        "runtime": {
+          "lib/net8.0/System.Management.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.17209"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.17209"
+          }
+        }
+      },
       "System.Reflection.Metadata/6.0.1": {
         "dependencies": {
           "System.Collections.Immutable": "6.0.0"
@@ -312,6 +340,13 @@
       "path": "samboy063.tomlet/5.1.2",
       "hashPath": "samboy063.tomlet.5.1.2.nupkg.sha512"
     },
+    "System.CodeDom/9.0.0-preview.3.24172.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XlDKGNWYIg4bMpgELuAZsbVs9KYwq0SkJVzlom9osW5XtO8sLzalCS0wk90NV6WeUUVlMvXCsyquCuv5HuVs1A==",
+      "path": "system.codedom/9.0.0-preview.3.24172.9",
+      "hashPath": "system.codedom.9.0.0-preview.3.24172.9.nupkg.sha512"
+    },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -325,6 +360,13 @@
       "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
       "path": "system.diagnostics.diagnosticsource/4.7.1",
       "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "System.Management/9.0.0-preview.3.24172.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MZXCNMOhaSSkrHJjdwiXY0mjRklGh0U5Yl3IyRruPRhmeq4UzWzXs2wsowmPzQSELeM+STfT9djZXYaXfspZgQ==",
+      "path": "system.management/9.0.0-preview.3.24172.9",
+      "hashPath": "system.management.9.0.0-preview.3.24172.9.nupkg.sha512"
     },
     "System.Reflection.Metadata/6.0.1": {
       "type": "package",

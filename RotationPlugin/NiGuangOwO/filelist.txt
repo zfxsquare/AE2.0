@@ -1,3 +1,0 @@
-NiGuangOwO.deps.json
-NiGuangOwO.dll
-NiGuangOwO.pdb
