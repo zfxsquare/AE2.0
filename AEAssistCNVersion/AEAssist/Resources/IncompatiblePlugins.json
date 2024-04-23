@@ -7,42 +7,66 @@
     {
         "Name": "XIVCombo",
         "Icon": "https://raw.githubusercontent.com/daemitus/XIVComboPlugin/master/res/icon.png",
-        "Description": "一键循环类插件影响ACR自动循环"
+        "Description": "一键循环类插件影响ACR使用技能"
     },
     {
         "Name": "XIVSlothCombo",
         "Icon": "https://raw.githubusercontent.com/Nik-Potokar/XIVSlothCombo/main/res/plugin/xivslothcombo.png",
-        "Description": "一键循环类插件影响ACR自动循环"
+        "Description": "一键循环类插件影响ACR使用技能"
     },
     {
         "Name": "XIVSlothComboX",
         "Icon": "https://raw.githubusercontent.com/Nik-Potokar/XIVSlothCombo/main/res/plugin/xivslothcombo.png",
-        "Description": "一键循环类插件影响ACR自动循环"
+        "Description": "一键循环类插件影响ACR使用技能"
     },
     {
         "Name": "BossMod",
         "Icon": "https://raw.githubusercontent.com/awgil/ffxiv_bossmod/master/Data/icon.png",
-        "Description": "如果你用的是逆光的仅保留画图版本，请无视。如果不是，启用该插件会影响ACR自动循环"
+        "Description": "如果你用的是逆光的仅保留画图版本，请无视。如果不是，启用该插件会影响ACR使用技能"
     },
     {
         "Name": "Redirect",
         "Icon": "https://raw.githubusercontent.com/cairthenn/Redirect/main/Redirect/icon.png",
-        "Description": "可能会影响ACR自动循环或时间轴处理目标"
+        "Description": "影响ACR使用技能或时间轴"
     },
     {
         "Name": "ReAction",
         "Icon": "",
-        "Description": "可能会影响ACR自动循环或时间轴处理目标"
+        "Description": "影响ACR使用技能或时间轴"
     },
     {
         "Name": "SimpleTweaksPlugin",
         "Icon": "https://raw.githubusercontent.com/Caraxi/SimpleTweaksPlugin/main/images/icon.png",
-        "Description": "如果你遇到验证完游戏立刻闪退，请检查《Blocks targeting treasure hunt enemies》功能是否关闭！"
+        "Description": "1.验证后闪退：关闭 Blocks targeting treasure hunt enemies\n2.影响ACR使用技能：Island Sanctuary Sprint Replacer"
     },
     {
         "Name": "AutoHook",
         "Icon": "https://raw.githubusercontent.com/InitialDet/AutoHook/main/AutoHook/images/icon.png",
-        "Description": "冲突较多，建议关闭"
+        "Description": "影响ACR使用技能"
+    },
+    {
+        "Name": "MOAction",
+        "Icon": "https://raw.githubusercontent.com/goatcorp/DalamudPluginsD17/main/stable/MOAction/images/icon.png",
+        "Description": "影响ACR使用技能或时间轴"
+    },
+    {
+        "Name": "PandorasBox",
+        "Icon": "https://raw.githubusercontent.com/PunishXIV/PandorasBox/master/PandorasBox/pandora.png",
+        "Description": " - 影响ACR使用技能：\n1.挂机时清除木人仇恨(Inactivity Dummy Reset)\n2.热键栏解读宝物地图(Map Hotbar Decipher)"
+    },
+    {
+        "Name": "GatherBuddy",
+        "Icon": "https://raw.githubusercontent.com/Ottermandias/GatherBuddy/main/images/icon.png",
+        "Description": "影响ACR使用技能"
+    },
+    {
+        "Name": "ActionEffectRange",
+        "Icon": "",
+        "Description": "影响ACR使用技能"
+    },
+    {
+        "Name": "DailyRoutines",
+        "Icon": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/Assets/Images/icon.png",
+        "Description": "所有战斗相关功能影响ACR使用技能"
     }
 ]
-
