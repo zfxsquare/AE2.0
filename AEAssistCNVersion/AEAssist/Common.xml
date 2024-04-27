@@ -657,7 +657,7 @@
         </member>
         <member name="M:Common.IMemApiSpell.IsBossAoe(System.UInt32)">
             <summary>
-            是否是boss的aoe技能,判定方式为技能范围是否大于等于20m
+            是否是boss的aoe技能,判定方式为castType为2和5并且范围>=50
             </summary>
             <param name="spellId"></param>
             <returns></returns>
