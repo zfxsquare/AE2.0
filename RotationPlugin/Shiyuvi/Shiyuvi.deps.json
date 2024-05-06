@@ -10,9 +10,9 @@
         "dependencies": {
           "CombatRoutine": "1.0.0.0",
           "Common": "1.0.0.0",
-          "Dalamud": "9.1.0.0",
+          "Dalamud": "9.1.0.2",
           "ECommons": "2.2.0.1",
-          "FFXIVClientStructs": "1.0.0.3590",
+          "FFXIVClientStructs": "1.0.0.3690",
           "ImGui.NET": "1.82.0.0",
           "ImGuiScene": "1.0.0.0",
           "Lumina": "3.0.0.0",
@@ -39,11 +39,11 @@
           }
         }
       },
-      "Dalamud/9.1.0.0": {
+      "Dalamud/9.1.0.2": {
         "runtime": {
           "Dalamud.dll": {
-            "assemblyVersion": "9.1.0.0",
-            "fileVersion": "9.1.0.0"
+            "assemblyVersion": "9.1.0.2",
+            "fileVersion": "9.1.0.2"
           }
         }
       },
@@ -55,11 +55,11 @@
           }
         }
       },
-      "FFXIVClientStructs/1.0.0.3590": {
+      "FFXIVClientStructs/1.0.0.3690": {
         "runtime": {
           "FFXIVClientStructs.dll": {
-            "assemblyVersion": "1.0.0.3590",
-            "fileVersion": "1.0.0.3590"
+            "assemblyVersion": "1.0.0.3690",
+            "fileVersion": "1.0.0.3690"
           }
         }
       },
@@ -208,9 +208,9 @@
           }
         }
       },
-      "Basic.Reference.Assemblies.Net70/1.0.0.0": {
+      "Basic.Reference.Assemblies.Net80/1.0.0.0": {
         "runtime": {
-          "Basic.Reference.Assemblies.Net70.dll": {
+          "Basic.Reference.Assemblies.Net80.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -381,6 +381,14 @@
           "System.Reactive.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "SDL2-CS/1.0.0.0": {
+        "runtime": {
+          "SDL2-CS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -595,7 +603,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Dalamud/9.1.0.0": {
+    "Dalamud/9.1.0.2": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -605,7 +613,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FFXIVClientStructs/1.0.0.3590": {
+    "FFXIVClientStructs/1.0.0.3690": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -675,7 +683,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Basic.Reference.Assemblies.Net70/1.0.0.0": {
+    "Basic.Reference.Assemblies.Net80/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -781,6 +789,11 @@
       "sha512": ""
     },
     "System.Reactive/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SDL2-CS/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
