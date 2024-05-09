@@ -680,6 +680,22 @@
             <param name="targetId">目标id</param>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemApiSpell.CheckActionInLoS(System.UInt32,System.Nullable{System.Int64})">
+            <summary>
+            检查技能目标是否可见
+            </summary>
+            <param name="actionId"></param>
+            <param name="targetId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Common.IMemApiSpell.CheckActionInRangeAndLoS(System.UInt32,System.Nullable{System.Int64})">
+            <summary>
+            同时检查技能目标是否在范围内和是否可见
+            </summary>
+            <param name="actionId"></param>
+            <param name="targetId"></param>
+            <returns></returns>
+        </member>
         <member name="M:Common.IMemApiSpellCastSucces.ClearRecentlyUsed">
             <summary>
             需要连续使用两次以上相同能力技时，先在AfterSpell的该技能下调用此方法
