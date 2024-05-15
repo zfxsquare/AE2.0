@@ -432,6 +432,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Common.IMemApiDancer.IsDancing">
+            <summary>
+            是否在大小舞状态
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:Common.MemoryApi.IMemApiFunctionPointer">
             <summary>
             一些游戏函数指针，有些会做一些处理
