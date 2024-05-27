@@ -10,7 +10,8 @@
         "dependencies": {
           "Dalamud.Common": "1.0.0.0",
           "Dalamud": "9.1.0.2",
-          "ECommons": "2.2.0.1"
+          "ECommons": "2.2.0.1",
+          "FFXIVClientStructs": "1.0.0.3690"
         },
         "runtime": {
           "Siren.dll": {}
@@ -40,19 +41,19 @@
           }
         }
       },
-      "SharpDX.DXGI/4.2.0.0": {
-        "runtime": {
-          "SharpDX.DXGI.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
-          }
-        }
-      },
       "FFXIVClientStructs/1.0.0.3690": {
         "runtime": {
           "FFXIVClientStructs.dll": {
             "assemblyVersion": "1.0.0.3690",
             "fileVersion": "1.0.0.3690"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.2.0.0": {
+        "runtime": {
+          "SharpDX.DXGI.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
           }
         }
       },
@@ -359,12 +360,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SharpDX.DXGI/4.2.0.0": {
+    "FFXIVClientStructs/1.0.0.3690": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "FFXIVClientStructs/1.0.0.3690": {
+    "SharpDX.DXGI/4.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
