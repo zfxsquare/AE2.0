@@ -67,6 +67,6 @@
     {
         "Name": "DailyRoutines",
         "Icon": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/Assets/Images/icon.png",
-        "Description": "所有战斗相关功能影响ACR使用技能"
+        "Description": "影响ACR使用技能"
     }
 ]
