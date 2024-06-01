@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "LittleNightmare/1.8.1.2": {
+      "LittleNightmare/1.8.2.0": {
         "runtime": {
           "LittleNightmare.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "LittleNightmare/1.8.1.2": {
+    "LittleNightmare/1.8.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
