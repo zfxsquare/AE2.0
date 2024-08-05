@@ -222,7 +222,10 @@
           "Common": "1.0.0"
         },
         "runtime": {
-          "CombatRoutine.dll": {}
+          "CombatRoutine.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Common/1.0.0": {
@@ -235,7 +238,10 @@
           "Samboy063.Tomlet": "5.1.2"
         },
         "runtime": {
-          "Common.dll": {}
+          "Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "OrderBot/1.0.0": {
@@ -244,7 +250,10 @@
           "Common": "1.0.0"
         },
         "runtime": {
-          "OrderBot.dll": {}
+          "OrderBot.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "TriggerlineEditor/1.0.0": {
@@ -253,7 +262,10 @@
           "Common": "1.0.0"
         },
         "runtime": {
-          "TriggerlineEditor.dll": {}
+          "TriggerlineEditor.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ECommons/2.2.0.1": {
