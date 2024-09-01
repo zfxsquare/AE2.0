@@ -11,9 +11,9 @@
           "Newtonsoft.Json": "9.0.1",
           "CombatRoutine": "1.0.0.0",
           "Common": "1.0.0.0",
-          "Dalamud": "9.1.0.2",
+          "Dalamud": "9.1.0.12",
           "ECommons": "2.2.0.1",
-          "FFXIVClientStructs": "1.0.0.3690",
+          "FFXIVClientStructs": "1.0.0.3781",
           "ImGui.NET": "1.82.0.0",
           "ImGuiScene": "1.0.0.0",
           "Lumina": "3.0.0.0",
@@ -385,11 +385,11 @@
           }
         }
       },
-      "Dalamud/9.1.0.2": {
+      "Dalamud/9.1.0.12": {
         "runtime": {
           "Dalamud.dll": {
-            "assemblyVersion": "9.1.0.2",
-            "fileVersion": "9.1.0.2"
+            "assemblyVersion": "9.1.0.12",
+            "fileVersion": "9.1.0.12"
           }
         }
       },
@@ -401,11 +401,11 @@
           }
         }
       },
-      "FFXIVClientStructs/1.0.0.3690": {
+      "FFXIVClientStructs/1.0.0.3781": {
         "runtime": {
           "FFXIVClientStructs.dll": {
-            "assemblyVersion": "1.0.0.3690",
-            "fileVersion": "1.0.0.3690"
+            "assemblyVersion": "1.0.0.3781",
+            "fileVersion": "1.0.0.3781"
           }
         }
       },
@@ -429,7 +429,7 @@
         "runtime": {
           "Lumina.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.16.0.0"
+            "fileVersion": "3.17.0.0"
           }
         }
       },
@@ -586,6 +586,14 @@
           }
         }
       },
+      "System.Drawing.Common/8.0.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11603"
+          }
+        }
+      },
       "TerraFX.Interop.Windows/10.0.22621.2": {
         "runtime": {
           "TerraFX.Interop.Windows.dll": {
@@ -618,11 +626,11 @@
           }
         }
       },
-      "Microsoft.Extensions.ObjectPool/8.0.0.0": {
+      "Microsoft.Extensions.ObjectPool/9.0.0.0": {
         "runtime": {
           "Microsoft.Extensions.ObjectPool.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.123.58008"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.8105"
           }
         }
       },
@@ -735,14 +743,6 @@
           "PInvoke.Windows.Core.dll": {
             "assemblyVersion": "0.7.0.0",
             "fileVersion": "0.7.104.53878"
-          }
-        }
-      },
-      "System.Drawing.Common/8.0.0.0": {
-        "runtime": {
-          "System.Drawing.Common.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.324.11603"
           }
         }
       },
@@ -1193,7 +1193,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Dalamud/9.1.0.2": {
+    "Dalamud/9.1.0.12": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1203,7 +1203,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FFXIVClientStructs/1.0.0.3690": {
+    "FFXIVClientStructs/1.0.0.3781": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1293,6 +1293,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "System.Drawing.Common/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "TerraFX.Interop.Windows/10.0.22621.2": {
       "type": "reference",
       "serviceable": false,
@@ -1313,7 +1318,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.ObjectPool/8.0.0.0": {
+    "Microsoft.Extensions.ObjectPool/9.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1384,11 +1389,6 @@
       "sha512": ""
     },
     "PInvoke.Windows.Core/0.7.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.Drawing.Common/8.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
